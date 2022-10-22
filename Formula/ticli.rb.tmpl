@@ -1,0 +1,20 @@
+# Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://rubydoc.brew.sh/Formula
+# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+class Csview < Formula
+  desc "A modern cli for tikv"
+  homepage "https://github.com/hackathon-2022-ticli/ticli"
+  url "{{PKGURL}}"
+  sha256 "{{PKGSIG}}"
+  license "MIT/APACHE-2.0"
+  version "{{PKGVER}}"
+
+  def install
+    bin.install "ticli"
+    zsh_completion.install  "completions/zsh/_ticli"
+    bash_completion.install "completions/bash/ticli.bash"
+    fish_completion.install "completions/fish/ticli.fish"
+  end
+end
+
+# vim: ft=ruby:
