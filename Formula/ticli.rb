@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Csview < Formula
+class Ticli < Formula
   desc "A modern cli for tikv"
   homepage "https://github.com/hackathon-2022-ticli/ticli"
   url "https://github.com/hackathon-2022-ticli/ticli/releases/download/v0.1.0/ticli-v0.1.0-x86_64-apple-darwin.tar.gz"
