@@ -4,10 +4,10 @@
 class Csview < Formula
   desc "A modern cli for tikv"
   homepage "https://github.com/hackathon-2022-ticli/ticli"
-  url "https://github.com/hackathon-2022-ticli/ticli/releases/download/v1.0.0/ticli-v1.0.0-x86_64-apple-darwin.tar.gz"
-  sha256 "eb14ccdc2b0f15e7dfe3ebdc92896dbcaf2516ea9461fcae75dac5ff31e1caca"
+  url "https://github.com/hackathon-2022-ticli/ticli/releases/download/v0.1.0/ticli-v0.1.0-x86_64-apple-darwin.tar.gz"
+  sha256 "baa900293703ee3e1370bd111479cf537f80f2c9add70031edc1e90ed78dc75e"
   license "MIT/APACHE-2.0"
-  version "1.0.0"
+  version "0.1.0"
 
   def install
     bin.install "ticli"

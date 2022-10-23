@@ -1,5 +1,5 @@
 PKG = ticli
-PKGVER = 1.0.0
+PKGVER = 0.1.0
 PKGURL = https://github.com/hackathon-2022-ticli/$(PKG)/releases/download/v$(PKGVER)/$(PKG)-v$(PKGVER)-x86_64-apple-darwin.tar.gz
 
 .PHONY: codegen
